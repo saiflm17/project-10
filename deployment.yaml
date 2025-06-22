@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
       - name: tetris-container
-        image: saikumar1817/tetris-project:version-1.0
+        image: saikumar1817/mytetris:v1
         ports:
         - containerPort: 3000 
