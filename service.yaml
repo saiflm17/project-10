@@ -4,10 +4,9 @@ kind: Service
 metadata:
   name: my-service
 spec:
-  type: LoadBalancer
   selector:
     app: tetris
   ports:
-    - port: 9898
-      targetPort: 3000
-
+    port: 80                
+    targetPort: 3000
+  type: LoadBalancer
