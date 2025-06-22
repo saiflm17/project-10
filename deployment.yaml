@@ -7,14 +7,14 @@ spec:
   replicas: 2
   selector:
     matchLabels:
-       app: tetris
+      app: tetris
   template:
     metadata:
-       labels:
-         app: tetris
+      labels:
+        app: tetris
     spec:
-       containers:
-         - name: tetris-container
-           image: saikumar1817/tetris-project:version-1.0
-           ports:
-             - containerPort: 3000
+      containers:
+      - name: tetris-container
+        image: saikumar1817/tetris-project:version-1.0
+        ports:
+        - containerPort: 3000 
